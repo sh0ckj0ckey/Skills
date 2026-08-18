@@ -106,6 +106,7 @@ description: Defines coding style guidance for practical engineering tasks. Focu
 
 - Follow official C#/.NET naming, formatting, member ordering, async, event, disposal, and documentation conventions.
 - Use modern C# syntax when it improves readability and remains appropriate for the project language version.
+- In C#/.NET, use established idiomatic syntax such as `var`, target-typed `new`, and other common community conventions when they improve readability and match the project style.
 - Prefer enabling and using modern .NET / C# features such as nullable reference types, implicit usings, file-scoped namespaces, global usings, and an appropriate latest language version, as long as they fit the target framework, project conventions, and existing code state.
 - Do not enable new features in a way that causes broad unrelated changes, creates excessive warning noise, or breaks compatibility with existing code.
 - For XAML desktop applications, follow the conventions of the current UI stack and project, including WPF, UWP, or WinUI 3 patterns.
@@ -121,6 +122,7 @@ description: Defines coding style guidance for practical engineering tasks. Focu
 ## Vue 3, TypeScript, and Electron Guidance
 
 - Follow official Vue 3, TypeScript, and Electron conventions and best practices.
+- In TypeScript, prefer explicit type annotations even when the IDE can infer simple types, and always declare return types for methods and functions.
 - Follow the existing project style for Composition API, stores, composables, components, props, emits, lifecycle hooks, watchers, and IPC usage.
 - Keep component state minimal and local when possible.
 - Prefer computed values, derived data, closures, parameters, and explicit data flow over unnecessary mutable state.
