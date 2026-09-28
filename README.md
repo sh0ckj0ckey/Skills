@@ -12,6 +12,7 @@ This repository collects reusable instructions for AI assistants. Each skill cap
 | --- | --- |
 | `personal-coding-style` | Coding style, refactoring, migration, review, and commit message guidance for C#/.NET, XAML, Vue 3, TypeScript, and Electron projects. |
 | `app-copywriting` | Public app publishing copy for GitHub, README files, Microsoft Store listings, feature lists, and release summaries in Chinese and English. |
+| `qa-bug-analysis` | Software testing assistance for analyzing screenshots, recordings, and descriptions, judging whether a behavior may be a bug, and writing concise and accurate titles. |
 
 ## Structure
 
@@ -20,6 +21,8 @@ skills/
   personal-coding-style/
     SKILL.md
   app-copywriting/
+    SKILL.md
+  qa-bug-analysis/
     SKILL.md
 ```
 
