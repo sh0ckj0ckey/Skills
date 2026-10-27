@@ -178,13 +178,17 @@ description: Defines coding style guidance for practical engineering tasks. Focu
 
 ## Git Commit Messages
 
-- Use short, simple, plain English.
-- Do not use Conventional Commits unless explicitly requested.
-- Write clear and easy-to-understand sentences or sentence fragments.
-- Describe what changed.
+- Follow any commit message requirements explicitly provided by the user.
+- Otherwise, follow the repository's existing commit message language, format, tone, and conventions.
+- Before writing a commit message, review recent commit history when available to identify the established style.
+- If the repository consistently uses Chinese, Conventional Commits, issue identifiers, scopes, prefixes, or another recognizable format, follow that style.
+- If the repository has no clear existing style or commit history, default to short, simple, plain English.
+- Do not introduce Conventional Commits unless the repository already uses them consistently or the user explicitly requests them.
+- Keep commit messages clear and easy to understand.
+- Describe what changed using a concise sentence or sentence fragment, unless the existing project convention requires another format.
 - Avoid vague messages like `Update code`, `Fix issue`, or `Refactor logic`.
-- Avoid overly polished, formal, or convention-heavy wording.
-- Prefer messages like:
+- Avoid wording that is more polished, formal, or elaborate than the repository's existing style requires.
+- When no project-specific style applies, prefer messages like:
   - `Fix login redirect`
   - `Update upload error handling`
   - `Move settings migration logic`
@@ -203,4 +207,4 @@ description: Defines coding style guidance for practical engineering tasks. Focu
 - Speculative future-proofing.
 - Version counters for async freshness when a clearer closure, cancellation, ownership, or lifecycle-based solution is available.
 - Unrelated formatting or cleanup.
-- Overly polished or convention-heavy commit messages.
+- Overly polished, formal, or elaborate commit messages when the repository has no such convention.
